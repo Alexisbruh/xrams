@@ -72,7 +72,7 @@ img {
 	width: auto;
 }
 #header div ul {
-	display: inline-block;
+	display: inline;
 	list-style: none outside none;
 	padding: 17px 0 0;
 	text-align: center;
@@ -128,12 +128,8 @@ img {
 	width: 106px;
 	z-index: 90;
 }
-#header div ul li.menu:hover ul.primary, #header div ul li.menu ul#selected.primary {
-	left: -30px;
-}
-#header div ul li.menu:hover ul.secondary, #header div ul li.menu ul#selected.secondary {
-	left: -27px;
-}
+
+
 #header div ul li.menu ul li {
 	float: none;
 	margin: 0;
