@@ -1095,7 +1095,7 @@ img {
 	background-position: 0 -96px;
 }
 
-/*.background-image {*/*/
+.background-image {*/
 	background-size: cover;
 	/*background: none no-repeat center center;*/
 }
@@ -1114,13 +1114,7 @@ opacity:0;
 opacity:0;
 }
 }
-#cf3 img.bottom {
-animation-name: cf3FadeInOut;
-animation-timing-function: ease-in-out;
-animation-iteration-count: infinite;
-animation-duration: 5s;
-animation-direction: alternate;
-}
+
 #cf3 img.top {
 animation-name: cf3FadeInOut;
 animation-timing-function: ease-in-out;
