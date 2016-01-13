@@ -1095,7 +1095,7 @@ img {
 	background-position: 0 -96px;
 }
 
-/*.background-image {*/*/
+.background-image {*/
 	background-size: cover;
 	/*background: none no-repeat center center;*/
 }
@@ -1119,7 +1119,7 @@ opacity:0;
 animation-name: cf3FadeInOut;
 animation-timing-function: ease-in-out;
 animation-iteration-count: infinite;
-animation-duration: 5s;
+animation-duration: 2s;
 animation-direction: alternate;
 }
 #body div.singlepost .featured p a
