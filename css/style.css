@@ -18,9 +18,7 @@ a {
 a:active {
 	background: none;
 }
-img {
-	border: none;
-}
+
 /*-------------------------------------------FONTS---------------------------------------------*/
 @font-face {
 	font-family: 'roboto-regular-webfont';
@@ -448,8 +446,9 @@ img {
 }
 #body div {
 	margin: 0 auto;
-	max-width: 960px;
+	max-width: 900px;
 	padding: 7px 0 57px;
+	/* [disabled]max-height: 50%; */
 }
 #body div ul {
 	display: inline-block;
@@ -984,7 +983,7 @@ img {
 	width: 280px;
 }
 #body div.footer .section h1 {
-	color: ##3362cb;
+	color: #3362cb;
 	display: block;
 	font-family: lato-regular-webfont;
 	font-size: 24px;
@@ -1085,28 +1084,7 @@ img {
 	/*background: none no-repeat center center;*/
 }
 
-@keyframes cf3FadeInOut {
-  0% {
-  opacity:1;
-}
-45% {
-opacity:1;
-}
-55% {
-opacity:0;
-}
-100% {
-opacity:0;
-}
-}
 
-#cf3 img.top {
-animation-name: cf3FadeInOut;
-animation-timing-function: ease-in-out;
-animation-iteration-count: infinite;
-animation-duration: 5s;
-animation-direction: alternate;
-}
 #body div.singlepost .featured p a
 {
 	color: #7a6666;
@@ -1138,3 +1116,57 @@ animation-direction: alternate;
 {
 	font-family: magra-bold-webfont;
 }
+
+#cf .bottom {
+	height:inherit;
+	width:inherit;
+}
+#cf .top{
+	height: inherit;
+	width: inherit;
+	
+}
+
+#cf {
+  position:relative;
+  height:450px;
+  width:800px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  
+}
+
+@keyframes cfFadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#cf img.top {
+animation-name: cfFadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+animation-direction: alternate;
+}
+
+
+
+
