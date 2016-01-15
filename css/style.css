@@ -1035,6 +1035,7 @@ a:active {
 .sponsors .logos {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-around;
 }
 
@@ -1124,7 +1125,7 @@ a:active {
 #cf .top{
 	height: inherit;
 	width: inherit;
-	
+
 }
 
 #cf {
@@ -1141,7 +1142,7 @@ a:active {
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
-  
+
 }
 
 @keyframes cfFadeInOut {
@@ -1166,7 +1167,3 @@ animation-iteration-count: infinite;
 animation-duration: 2s;
 animation-direction: alternate;
 }
-
-
-
-
