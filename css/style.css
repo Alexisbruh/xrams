@@ -464,7 +464,7 @@ font-family: "Numbers";
 	margin: 0;
 	overflow: hidden;
 	padding: 0 0 22px;
-	width: 100%;
+	width: 150%;
 }
 #body div ul li {
 	float: left;
@@ -1127,12 +1127,12 @@ font-family: "Numbers";
 }
 
 #cf .bottom {
-	height: 42%;
-	width: 100%;
+	height: 535px;
+	width: 1280px;
 }
 #cf .top{
-	height: 42%;
-	width: 100%;
+	height: 535px;
+	width: 1280px;
 
 }
 #cf {
