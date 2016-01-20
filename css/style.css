@@ -208,11 +208,19 @@ a:active {
 #body.home div.body div img {
 	display: block;
 	float: right;
-	left: 0;
+	left: 800px;
 	margin: 0;
 	padding: 0;
-	position: relative;
+	position: absolute;
 	width: auto;
+}
+@font-face {
+font-family:"Numbers";
+font-style: normal;
+src:local('Numbers'),url("../Dev/xrams/fonts/Numbers.ttf");
+}
+#numeros{
+font-family: "Numbers";
 }
 #body.home div.body div div h1 {
 	color: #7A6666;
@@ -286,7 +294,7 @@ a:active {
 	width: 100%;
 }
 #body.home div.footer div ul li {
-	float:left;
+	float: left;
 	margin: 0 10px;
 	padding: 0;
 	width: 220px;
@@ -298,16 +306,15 @@ a:active {
 	margin: 0 auto 22px;
 	padding: 0;
 	width: 80px;
-	justify-content:center;
-	
 }
-
+#body.home div.footer div ul li a.product {
+	background-position: 0 -372px;
+}
 #body.home div.footer div ul li a.about {
 	background-position: 0 -418px;
 }
 #body.home div.footer div ul li a.flavor {
 	background-position: 0 -280px;
-	
 }
 #body.home div.footer div ul li a.contact {
 	float: none;
@@ -1120,22 +1127,19 @@ a:active {
 }
 
 #cf .bottom {
-	height:inherit;
-	width:inherit;
+	height: 42%;
+	width: 100%;
 }
 #cf .top{
-	height: inherit;
-	width: inherit;
+	height: 42%;
+	width: 100%;
 
 }
-
 #cf {
-  position:relative;
-  height:450px;
+  height:460px;
   width:800px;
   margin:0 auto;
 }
-
 #cf img {
   position:absolute;
   left:0;
@@ -1143,9 +1147,7 @@ a:active {
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
-
 }
-
 @keyframes cfFadeInOut {
   0% {
   opacity:1;
@@ -1165,6 +1167,6 @@ opacity:0;
 animation-name: cfFadeInOut;
 animation-timing-function: ease-in-out;
 animation-iteration-count: infinite;
-animation-duration: 10s;
+animation-duration: 7s;
 animation-direction: alternate;
 }
