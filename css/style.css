@@ -216,8 +216,7 @@ a:active {
 }
 @font-face {
 font-family:"Numbers";
-font-style: normal;
-src:local('Numbers'),url("../Dev/xrams/fonts/Numbers.ttf");
+src:url(../fonts/Numbers.ttf);
 }
 #numeros{
 font-family: "Numbers";
@@ -464,14 +463,18 @@ font-family: "Numbers";
 	margin: 0;
 	overflow: hidden;
 	padding: 0 0 22px;
-	width: 100%;
+	width: 120%;
 }
+
 #body div ul li {
-	float: left;
+	
+	float:left;
 	margin: 0 10px;
 	padding: 0;
 	width: 220px;
 }
+
+
 #body div ul li h1 {
 	color: #E32A62;
 	font-family: magra-bold-webfont;
@@ -517,7 +520,7 @@ font-family: "Numbers";
 	font-weight: normal;
 	line-height: 24px;
 	margin: 0;
-	padding: 0;
+	padding: 10px;
 	text-align: center;
 	text-transform: uppercase;
 }
