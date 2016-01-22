@@ -301,25 +301,15 @@ font-size: 235%
 	width: 220px;
 }
 #body.home div.footer div ul li a {
-	background: url(../images/icons.png) no-repeat;
-	display: block;
+	display: flex;
 	height: 44px;
 	margin: 0 auto 22px;
 	padding: 0;
 	width: 80px;
-}
-#body.home div.footer div ul li a.product {
-	background-position: 0 -372px;
-}
-#body.home div.footer div ul li a.about {
-	background-position: 0 -418px;
-}
-#body.home div.footer div ul li a.flavor {
-	background-position: 0 -280px;
-}
-#body.home div.footer div ul li a.contact {
-	float: none;
-	background-position: 0 -326px;
+	color: #fff;
+	line-height: 44px;
+	font-size: 44px;
+	justify-content: center;
 }
 #body.home div.footer div ul li h1 {
 	color: #ffffff;
