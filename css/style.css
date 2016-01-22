@@ -951,22 +951,7 @@ font-size: 235%
 	text-align: left;
 	width: 548px;
 }
-#body div.footer .contact form textarea {
-	background: none;
-	border: 1px solid #B6ADB0;
-	color: #7A6666;
-	display: block;
-	font-family: lato-regular-webfont;
-	font-size: 14px;
-	font-weight: normal;
-	height: 270px;
-	line-height: 24px;
-	margin: 0 0 9px;
-	overflow: auto;
-	padding: 7px 0 0 10px;
-	resize: none;
-	text-align: left;
-	width: 548px;
+
 }
 #body div.footer .contact form input#submit {
 	background: none;
