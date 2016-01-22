@@ -221,6 +221,7 @@ src:url(../fonts/Numbers.ttf);
 }
 #numeros{
 font-family: "Numbers";
+font-size: 235%
 }
 #body.home div.body div div h1 {
 	color: #7A6666;
@@ -469,7 +470,7 @@ font-family: "Numbers";
 }
 
 #body div ul li {
-	
+
 	float:left;
 	margin: 0 10px;
 	padding: 0;
@@ -511,11 +512,11 @@ font-family: "Numbers";
 }
 #body div ul li img {
 	display: block;
-	margin: 0 auto 15px;
+	margin: 0 auto 10px;
 	padding: 0;
 	max-height: 240px;
 	max-width:240px;
-	
+
 }
 #body div ul li h2 {
 	color: #e32a62;
@@ -527,7 +528,7 @@ font-family: "Numbers";
 	padding: 10px;
 	text-align: center;
 	text-transform: uppercase;
-	
+
 }
 #body div.blog {
 	margin: 0 auto;
@@ -1135,11 +1136,11 @@ font-family: "Numbers";
 }
 
 #cf .bottom {
-	height: 535px;
+	height: 540px;
 	width: 1280px;
 }
 #cf .top{
-	height: 535px;
+	height: 540px;
 	width: 1280px;
 
 }
