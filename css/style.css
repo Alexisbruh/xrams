@@ -517,7 +517,7 @@ font-size: 235%
 }
 
 #body div ul li img:hover{
-	border: 3px solid black;
+	border: 3px solid #0033FF;
 }
 
 #body div ul li h2 {
