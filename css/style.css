@@ -452,7 +452,7 @@ font-size: 235%
 }
 #body div {
 	margin: 0 auto;
-	max-width: 900px;
+	max-width: 1366px;
 	padding: 7px 0 57px;
 	/* [disabled]max-height: 50%; */
 }
@@ -1091,7 +1091,7 @@ font-size: 235%
 	background-position: 0 -96px;
 }
 
-.background-image {*/
+.background-image {
 	background-size: cover;
 	/*background: none no-repeat center center;*/
 }
@@ -1132,17 +1132,19 @@ font-size: 235%
 #cf .bottom {
 	height: 510px;
 	width: 1280px;
-	padding-left:10%;
+	position:relative;
 }
 #cf .top{
 	height: 510px;
 	width: 1280px;
-	padding-left:10%;
+	position:relative;
 }
+
 #cf {
   height:460px;
   width:1280px;
   margin:0 auto;
+  
 }
 #cf img {
   position:absolute;
