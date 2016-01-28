@@ -1132,11 +1132,12 @@ font-size: 235%
 #cf .bottom {
 	height: 510px;
 	width: 1280px;
+	padding-left:10%;
 }
 #cf .top{
 	height: 510px;
 	width: 1280px;
-
+	padding-left:10%;
 }
 #cf {
   height:460px;
