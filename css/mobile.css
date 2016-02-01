@@ -145,16 +145,16 @@
 	#body {
 		margin: 0;
 		padding: 0;
-		width: 100%;
+		width: 568px;
 	}
 	#body.home {
 		margin: 0;
 		padding: 0;
-		width: 100%;
+		width: 568px;
 	}
 }
 @media only screen and (max-width : 568px) and (orientation : landscape) {
-	
+
 }
 	@media only screen and (max-width : 918px) {
 	#body{
